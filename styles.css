@@ -1,0 +1,153 @@
+.main__container {
+  position: relative;
+
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+
+  padding: 2rem;
+  border-radius: 1rem;
+  border-bottom-right-radius: 5rem;
+
+  background: var(--color-white);
+}
+
+.age__setdate {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+
+  padding-bottom: 2rem;
+
+  border-bottom: 1px solid var(--color-light-grey);
+}
+
+.age__setdate div {
+  width: 120px;
+}
+
+.age__calculate {
+  margin-top: 1rem;
+}
+
+.age__calculate span {
+  color: var(--color-purple);
+  margin-right: 5px;
+}
+
+/*** Button Design ***/
+
+.calculation__button {
+  position: absolute;
+  right: 30px;
+  top: 108px;
+
+  border-radius: 50%;
+
+  min-height: 60px;
+  width: 60px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  background: var(--color-purple);
+
+  transition: 0.5s ease;
+}
+
+.calculation__button:hover {
+  background: var(--color-off-black);
+}
+
+/*** Error Design ***/
+
+.error__text {
+  display: none;
+
+  font-size: 10px;
+  color: var(--color-light-red);
+  font-weight: 100;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.active .error__text {
+  display: block;
+}
+
+.active .input__design {
+  border: 1px solid var(--color-light-red);
+}
+
+.active .small__text {
+  color: var(--color-light-red);
+}
+
+.calculation__button.active {
+  top: 128px;
+}
+
+/* Footer */
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-family: var(--font-family);
+  font-size: 11px;
+  text-align: center; 
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
+
+/* Mobile Design */
+
+@media screen and (max-width: 1024px) {
+  .main__container {
+    width: 70%;
+  }
+
+  .big__text {
+    font-size: 5rem;
+    line-height: 5.2rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .big__text {
+    font-size: 3rem;
+  }
+
+  .main__container {
+    width: 90%;
+    gap: 3rem;
+  }
+
+  .age__setdate {
+    padding-bottom: 4rem;
+  }
+
+  .calculation__button {
+    top: 26%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+
+/* Remove arrows from number inputs */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
