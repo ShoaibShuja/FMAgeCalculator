@@ -8,7 +8,7 @@ This is a super simple website project that utilizes the wonderful technologies 
 
 ## 🌟 Project Overview
 
-A simple singular page that demonstrates a Blog Preview Card.
+A simple singular page that demonstrates an Age calculator app.
 
 ## 🔑 Key Features
 
@@ -28,8 +28,6 @@ Follow these steps to get your project up and running:
 
 ## 📅 Future Improvements
 
-The card can be made using some different colors 💡
-Although its super unnecessary but the card can be animated using GSAP 💡
 Add you own idea as well 🌱
 
 ## 📫 Contact
