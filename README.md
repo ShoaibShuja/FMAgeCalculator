@@ -1,10 +1,6 @@
-# Frontend Mentor - 
-
-![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
-
 # 🌈 Age calculator app 🌈
 
-![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
 
 ## 👋 Welcome! 
 
