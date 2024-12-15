@@ -28,6 +28,8 @@ Follow these steps to get your project up and running:
 
 ## 📅 Future Improvements
 
+An age guesser could be added to make this project fun!
+
 Add you own idea as well 🌱
 
 ## 📫 Contact
